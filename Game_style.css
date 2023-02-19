@@ -1,0 +1,243 @@
+body{
+    background: radial-gradient(circle,#24246e,#06051f);
+    /* height: 100vh; */
+}
+.wrapper span{
+    position: fixed;
+    top: -120px;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    animation: animate 10s linear infinite;    
+}
+.wrapper span:nth-child(1){
+    left: 60px;
+    animation-delay:0.6s;
+    border: 5px solid cyan;
+}
+.wrapper span:nth-child(2){
+    left: 60%;
+    animation-delay: 1s;
+    width: 100px;
+    height:100px;
+    background: #ff4293;
+}
+.wrapper span:nth-child(3){
+    left: 20%;
+    animation-delay: 2s;
+    border: 5px solid #fff;    
+}
+.wrapper span:nth-child(4){
+    left: 30%;
+    animation-delay: 2s;
+    width: 150px;
+    height: 150px;
+    background: #befb46;
+}
+.wrapper span:nth-child(5){
+    left: 40%;
+    animation-delay: 1s;
+    border: 5px solid #ff4293;
+}
+.wrapper span:nth-child(6){
+    left: 50%;
+    animation-delay: 7s;
+    border: 5px solid deepskyblue;
+}
+.wrapper span:nth-child(7){
+    left: 60%;
+    animation-delay: 6s;
+    width: 100px;
+    height: 100px;
+    background: #ffd59e;
+}
+.wrapper span:nth-child(8){
+    left: 70%;
+    animation-delay: 2s;
+    border: 5px solid #befb46;
+}
+.wrapper span:nth-child(9){
+    left: 80%;
+    animation-delay: 1s; 
+    width: 190px;
+    height: 190px;
+    background: cyan;
+}
+.wrapper span:nth-child(10){
+    left: 90%;
+    animation-delay: 4s;
+    border: 5px solid #fff;    
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+.content h2{
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #fff;
+    font-family: montserrat;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-align: center;
+    line-height: 0.9;
+}
+.content h2 b{
+    -webkit-text-fill-color: transparent;
+    font-size: 65px;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    80%{
+        opacity: 0.7;
+    }
+    100%{
+        transform: translateY(800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.bg
+{
+    background-color:transparent;
+    height: 100vh;
+    width: 80vw;
+}
+.name
+{
+    background-color:transparent;
+    height: 9vh;
+    width: 81vw;
+    color:cyan;
+    font-style: italic;
+    font-size:200px;
+    padding-left: 1111px;
+}
+ .con
+ {
+   
+    background-color:transparent;
+    height: 91vh;
+    width: 100vw;
+    display: flex;
+ }
+ .bar
+ {
+    background-color:transparent;
+    height: 80vh;
+    width: 15vw;
+    margin:40px;
+    margin-top: 150px;
+    border: 2px solid rgb(255, 255, 255);
+ }
+ .comp
+ {
+    background-color:transparent;
+    height: 31vh;
+    font-size: 150px;
+    color:white;
+    border: 2px solid rgb(255, 255, 255);
+ }
+ .you
+ {
+    background-color:transparent;
+    height: 30vh;
+    font-size: 150px;
+    color:white;
+    border: 2px solid rgb(255, 255, 255);
+ }
+ .board
+ {
+    background-color:transparent;
+    height: 80vh;
+    width: 80vw;
+    margin:40px;
+    margin-top: 150px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap:10px;  
+   
+       
+ }
+ button
+ {
+    background-color:transparent;
+    color: #ffffff;
+    font-size: 170px;
+    width: 15vw;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+ }
+ #t1
+ {
+    margin: 270px;
+    color:white;
+ }
+ #t2
+ {
+    margin: 270px;
+    color:white;
+ }
+ .a
+ {
+    border: 5px solid #befb46;
+    background-color:transparent;
+    border-radius: 4px;
+    font-size: 130px;
+    margin: auto;
+    color:white;
+    width: 400px;
+    height: 400px;
+    padding:90px;
+ }
+ #r1
+ {
+  background-color:transparent;
+  border: 2px solid #befb46;
+  border-radius: 19px;
+ }
+ #rr1
+ {
+  background-color:transparent;
+  border: 2px solid #ff4293;
+  border-radius: 19px;
+ }
+ button a
+ {
+  text-decoration: none;
+  color: #ffffff;
+  width: 10vw;
+  font-size: 3vw;
+  height: 7vh;
+ }
